@@ -7,17 +7,48 @@
     <title>Mobile-first exercise</title>
 </head>
 <body>
-    <nav></nav>
-    
-    <div class="site-nav grid"></div>
+    <!-- navigation -->
+    <nav class="site-nav grid"></nav>
     <h1>Cosmo Junkie</h1>
     <ul>
         <!-- when I click the following link,
         it'll look for an id of portfolio,
         and scroll me to that part of the page -->
-        <li><a href="#portfolio"></a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
+</nav>
+<section id="welcome" class="grid"></section>
+<div class="welcome-text">
+    <h2>Space Enthusiast <br> & Javascript Developer</h2>
+    <p class="leading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae hic itaque culpa nihil a sit vel! Corporis consequatur nemo quis labore tempora. Natus maiores impedit quasi, quam laudantium laborum vero.</p>
+    <a href="#portfolio" class="button">View my work</a>
+</div>
+<div class="welcome-img">
+<img src="assets/banner_image.png" alt="planet img">
+</div>
+    <!-- remember the portfolio <a> links above? 
+    whenever I clikc on the portfolio,
+    I'll come here -->
+<section id="portfolio">
+<h3>Some of my projects</h3>
+<div class="projects grid">
+<a href="">
+    <img src="assets/project_1.png" alt="space race img">
+    <h4>Space race Game</h4>
+</a>
+<a href="">
+    <img src="assets/project_2.png" alt="planet boy img">
+    <h4>Planet boy API</h4>
+</a>
+<a href="">
+    <img src="assets/project_3.png" alt="captain cosmo blog">
+    <h4>Captain Cosmo blog</h4>
+</a>
+</div>
 
+</section>
 
 </body>
 </html>
